@@ -148,7 +148,6 @@ def check_ssl_tls(domain):
 
 def check_subdomain_takeover(domain):
     logging.info(f"Checking for subdomain takeover for {domain}...")
-    # Placeholder: Implement your logic or use a service/API for subdomain takeover checks
     return None
 
 def write_report(filename, data, ssl_tls_results=None, takeover_results=None):
