@@ -1,9 +1,25 @@
-This script fetches certificates from crt.sh to identify associated subdomains, extracts and verifies these subdomains, performs SSL/TLS configuration checks, and tests for various web vulnerabilities using common payloads
+## Overview
 
+This script fetches certificates from crt.sh to identify associated subdomains, extracts and verifies these subdomains, performs SSL/TLS configuration checks, and tests for various web vulnerabilities using common payloads.
 
-git clone https://github.com/nginx0/ct_logs_enum.git
-cd ct_logs_enum
-python ct_logs_enum.py
+## Installation 
 
-A report will be generated in a file named vulnerability_report.txt.
+1. Clone the repository:
 
+    ```bash
+    git clone https://github.com/nginx0/ct_logs_enum.git
+    ```
+
+2. Navigate into the directory:
+
+    ```bash
+    cd ct_logs_enum
+    ```
+
+3. Run the script:
+
+    ```bash
+    python ct_logs_enum.py
+    ```
+
+A report will be generated in a file named `vulnerability_report.txt`.
